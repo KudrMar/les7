@@ -9,7 +9,6 @@ export class Validator {
         const symbolsAllowedStr =/^[a-zA-Z0-9_-]+$/;
         const symbolsAllowed = symbolsAllowedStr.test(username);       
         if (firstSymbol && lastSymbol && numbersInRow && symbolsAllowed) {
-        //if (numbersInRow) {
             return true;
         }
         else {
